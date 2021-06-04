@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+
+.tabuleiro{
+    
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#linha1, #linha2, #linha3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 5rem;
+    margin: 10px;
+}
+
+.quadrante{
+    background-color: cornsilk;
+    width: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 15px;
+}
